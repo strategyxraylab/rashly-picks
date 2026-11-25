@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="Discover, compare and choose better products with RASHLY PICKS. Explore electronics, fashion, beauty and home essentials.">
+  <title>RASHLY PICKS | Discover. Compare. Choose Better.</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="announcement">
+  <span>✦ Smart Shopping Starts Here</span>
+  <span>✦ Discover Products Across Multiple Categories</span>
+</div>
+
+<header class="header">
+  <a href="#" class="logo">
+    <span class="logo-icon">R</span>
+    <span>RASHLY <b>PICKS</b><small>Discover. Compare. Choose Better.</small></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+  <nav class="nav" id="navigation">
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#products">Discover Picks</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="eyebrow">YOUR SMART SHOPPING DESTINATION</span>
+    <h1>Discover More.<br>Choose <span>Better.</span></h1>
+    <p>Explore handpicked products across electronics, fashion, beauty, home and lifestyle. Find products worth discovering.</p>
+    <div class="hero-actions">
+      <a href="#categories" class="btn btn-gold">Explore Categories ↗</a>
+      <a href="#products" class="btn btn-outline">Discover Picks</a>
+    </div>
+    <div class="hero-points">
+      <span>✦ Carefully selected</span>
+      <span>✦ Multiple categories</span>
+      <span>✦ Smart discoveries</span>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="gold-orbit"></div>
+    <div class="hero-monogram">R</div>
+    <div class="hero-stamp">SHOP SMART<br><strong>LIVE BETTER</strong></div>
+    <div class="floating-note">YOUR NEXT<br>GREAT FIND.</div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div><strong>01</strong><span>Discover products</span></div>
+  <div><strong>02</strong><span>Compare your options</span></div>
+  <div><strong>03</strong><span>Shop with confidence</span></div>
+</section>
+
+<section class="section" id="categories">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">EXPLORE OUR WORLD</span>
+      <h2>Shop by <span>Category</span></h2>
+    </div>
+    <p>Something interesting for every lifestyle.</p>
+  </div>
+  <div class="category-grid">
+    <button class="category-card active" data-category="All">
+      <span>✦</span><strong>All Picks</strong><small>Explore everything</small>
+    </button>
+    <button class="category-card" data-category="Electronics">
+      <span>⌁</span><strong>Electronics</strong><small>Gadgets & technology</small>
+    </button>
+    <button class="category-card" data-category="Fashion">
+      <span>◇</span><strong>Fashion</strong><small>Style & accessories</small>
+    </button>
+    <button class="category-card" data-category="Beauty">
+      <span>✧</span><strong>Beauty</strong><small>Beauty & skincare</small>
+    </button>
+    <button class="category-card" data-category="Home">
+      <span>⌂</span><strong>Home & Living</strong><small>Everyday essentials</small>
+    </button>
+    <button class="category-card" data-category="Lifestyle">
+      <span>♡</span><strong>Lifestyle</strong><small>Everyday discoveries</small>
+    </button>
+  </div>
+</section>
+
+<section class="section products-section" id="products">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">THE DISCOVERY COLLECTION</span>
+      <h2>Explore Our <span>Picks</span></h2>
+    </div>
+    <span class="demo-label">DEMO CATALOGUE</span>
+  </div>
+
+  <div class="search-area">
+    <input type="search" id="searchInput" placeholder="Search products or categories..." aria-label="Search products">
+    <span>⌕</span>
+  </div>
+
+  <div class="filter-row" id="filterRow">
+    <button class="filter active" data-category="All">All</button>
+    <button class="filter" data-category="Electronics">Electronics</button>
+    <button class="filter" data-category="Fashion">Fashion</button>
+    <button class="filter" data-category="Beauty">Beauty</button>
+    <button class="filter" data-category="Home">Home</button>
+    <button class="filter" data-category="Lifestyle">Lifestyle</button>
+  </div>
+
+  <div class="product-grid" id="productGrid"></div>
+  <p class="empty-state" id="emptyState" hidden>No matching products found. Try another search.</p>
+  <p class="catalogue-note">These are demonstration listings, not verified merchant offers. Product links and prices will be added after affiliate partnerships are approved.</p>
+</section>
+
+<section class="editorial" id="about">
+  <div class="editorial-symbol">R.</div>
+  <div>
+    <span class="eyebrow">THE RASHLY PICKS PROMISE</span>
+    <h2>Better discoveries.<br><span>Smarter decisions.</span></h2>
+    <p>We are creating a shopping discovery destination where you can explore products, compare options and find useful ideas for everyday life.</p>
+    <a href="#categories" class="text-link">Explore our categories ↗</a>
+  </div>
+</section>
+
+<section class="newsletter" id="contact">
+  <span class="eyebrow">STAY IN THE KNOW</span>
+  <h2>Great finds are <span>worth sharing.</span></h2>
+  <p>Get updates when new product discoveries and recommendations arrive.</p>
+  <form id="newsletterForm">
+    <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+    <button type="submit" class="btn btn-gold">Join the list ↗</button>
+  </form>
+  <small id="newsletterMessage">Newsletter signup is a preview; no email subscriptions are collected yet.</small>
+</section>
+</main>
+
+<footer class="footer">
+  <a href="#home" class="logo">
+    <span class="logo-icon">R</span>
+    <span>RASHLY <b>PICKS</b><small>Discover. Compare. Choose Better.</small></span>
+  </a>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="disclosure.html">Affiliate Disclosure</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <p>© <span id="year"></span> RASHLY PICKS. All rights reserved.</p>
+  <p class="footer-note">Some links on this website may eventually be affiliate links. We may earn a commission from qualifying purchases, at no additional cost to you.</p>
+</footer>
+
+<div class="modal" id="productModal" aria-hidden="true">
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <span class="eyebrow">PRODUCT DISCOVERY</span>
+    <h2 id="modalTitle">Product details</h2>
+    <p id="modalDescription"></p>
+    <p class="modal-notice">This is a demonstration listing. A verified merchant and affiliate link have not yet been connected.</p>
+    <button class="btn btn-gold" id="modalDone">Close</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
